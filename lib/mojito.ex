@@ -233,7 +233,7 @@ defmodule Mojito do
           | {:strategy, :lifo | :fifo}
 
   @doc ~S"""
-  Performs an HTTP request and returns the response.
+  Performs an HTTP request and returns the response. First parameter is the name of the method.
 
   See `request/1` for details.
   """
